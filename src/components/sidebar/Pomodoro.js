@@ -1,7 +1,11 @@
 import React from "react";
 
 function Pomodoro() {
-  return <h1>Pomodoro</h1>;
+  return (
+    <div className="sideButton">
+      <h1>Pomodoro</h1>
+    </div>
+  );
 }
 
 export default Pomodoro;

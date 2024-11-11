@@ -1,5 +1,5 @@
 import React from "react";
-import Count from "./Count";
+import Count from "./Count/Count";
 import Timer from "./Timer";
 import Pomodoro from "./Pomodoro";
 import "./Sidebar.css";

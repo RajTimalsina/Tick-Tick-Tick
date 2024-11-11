@@ -1,7 +1,11 @@
 import React from "react";
 
 function Timer() {
-  return <h1>Timer</h1>;
+  return (
+    <div className="sideButton">
+      <h1>Timer</h1>
+    </div>
+  );
 }
 
 export default Timer;
