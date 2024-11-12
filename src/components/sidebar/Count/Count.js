@@ -3,7 +3,7 @@ import "../Sidebar.css";
 import "./Count.css";
 
 function Count() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const [counter, setCounter] = useState(0);
 
   function increment() {
@@ -23,6 +23,7 @@ function Count() {
       return !prevBool;
     });
   }
+
   return (
     <div className="sideButton count">
       <h1 onClick={handleClickCount}>Count</h1>
@@ -49,5 +50,4 @@ function Count() {
     </div>
   );
 }
-
 export default Count;

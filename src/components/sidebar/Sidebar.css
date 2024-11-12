@@ -26,6 +26,20 @@ h1 {
   border-radius: 15px;
 }
 
+.show {
+  position: absolute;
+  background-color: transparent;
+  width: 60%;
+  height: 50vh;
+  /* z-index: -1; */
+  left: 30%;
+  top: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .sideButton {
   height: 15%;
   display: flex;
